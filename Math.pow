@@ -1,0 +1,8 @@
+
+Write a function named power that takes two numbers x, y as arguments and returns x to the power of y.
+
+solution:
+
+function power(x, y){
+ return Math.pow(x,y);
+}
