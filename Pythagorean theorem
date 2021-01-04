@@ -1,0 +1,10 @@
+question
+The square of the hypotenuse is equal to the sum of the squares of the legs (Pythagorean theorem).
+Write a function called squareOfHypotenuse that takes two numbers a, b (leg length values) 
+as arguments and returns the square of the hypotenuse
+
+solution:
+
+function squareOfHypotenuse(a, b){
+  return Math.pow(a,2) + Math.pow(b,2);
+}
