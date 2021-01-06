@@ -1,0 +1,12 @@
+question
+The values of the variables a, b, c are given. Calculate the value of the expression:
+expression
+
+Write a function named expression that takes the values of the variables a, b, c as arguments
+and returns the value of the expression rounded to two decimal places.
+
+solution:
+
+function expression(a, b, c){
+  return +(Math.sqrt(a) + Math.sqrt(Math.abs(b-c))/ (Math.pow(a,3) + Math.pow(b,2) + Math.pow(c,4))).toFixed(2);
+}
