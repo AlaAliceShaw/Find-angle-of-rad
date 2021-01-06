@@ -1,0 +1,17 @@
+question
+Write a function called isSquare that takes a number x as an argument and returns a string like
+x is square of y if x is the square of some y,
+message x is not a square if x is not a square of an integer.
+Indication. You need to check if the square root of a number is an integer. For example, the root of 9 is 3 (integer),
+the root of 7 is not an integer. You can check that the number x is an integer by checking if the condition x% 1 === 0 
+(this condition is true for integers and false for non-integers).
+
+
+
+solution:
+
+function isSquare(x){
+  let y = Math.sqrt(x);
+  if (y % 1 === 0) return `${x} is square of ${y}`;
+  else return `${x} is not a square`
+  }
