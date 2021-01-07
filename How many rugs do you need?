@@ -1,0 +1,15 @@
+question
+You are given two positive integers a and b. a - corridor length, b - mat length. How many rugs (no overlap) are needed to cover 
+the entire corridor?rugs
+Write a function called countOfRugs that takes the numbers a and b as arguments and returns the maximum number of rugs of length b 
+needed to make a hallway of length a.
+Use the Math.floor () method
+
+solution:
+
+function countOfRugs(a, b){
+if( a > b)
+  return Math.floor(a / b);
+  else if(a === b || a < b)
+  return 0;
+}
