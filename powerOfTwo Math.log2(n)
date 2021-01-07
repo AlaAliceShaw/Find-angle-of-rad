@@ -1,0 +1,15 @@
+An indication of the solution. The Math.log2 (n) method returns the binary (base 2) logarithm of n.
+Those. Math.log2 (n) is the power to which the number 2 must be raised to get the number n.
+So if Math.log2 (n) is an integer, then n is a power of 2.
+The solution to the problem is to check if Math.log2 (n) is an integer.
+You can check that the number x is an integer using the condition x% 1 === 0 (this condition is true for integers and false for non-integers).
+
+
+solution:
+
+function isPowerOfTwo(n){
+ if(Math.log2(n) % 1 === 0)
+  return true;
+  else 
+  return false;
+}
