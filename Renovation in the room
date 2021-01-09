@@ -1,0 +1,13 @@
+
+question
+The surface area of the walls in the room is s square meters.
+The wallpaper tube is 10 meters long and w meters wide. How many wallpaper tubes do you need to buy in order to renovate a room?
+Write a function called numberOfWallpapers that takes the numbers s (wall surface area) and w (wallpaper tube width) 
+as arguments and returns the number of wallpaper tubes needed to renovate
+
+
+solution:
+
+function numberOfWallpapers(s, w){
+  return Math.ceil(s / (10 * w));
+}
