@@ -1,0 +1,18 @@
+question
+Which is less - the sum of the numbers or their difference? For given two numbers, find the lower value from their sum and difference.
+
+Write a minValue function that takes two numbers a, b as arguments and returns the smaller value of the sum (a + b) and the difference (a - b).
+
+Example:
+
+minValue (1, 2) function should return -1 (the lesser of the sum of 1 + 2 = 3 and the difference of 1 - 2 = -1)
+the minValue (1, -2) function should return -1 (the lesser of the sum of 1 + (-2) = -1 and the difference of 1 - (-2) = 3)
+
+
+solution:
+
+function minValue(a, b){
+  let sum = a + b;
+  let dif = a - b;
+  return Math.min (sum,dif);
+}
