@@ -1,0 +1,14 @@
+question
+Write a min function that takes an arr array as an argument and returns the minimum element of that array. If the array is empty, the function should return [].
+
+Examples:
+
+function min ([7, 23, 34, 9, 4, 45]) should return 4.
+function min ([]) should return []
+
+solution:
+
+function min(arr){
+if(arr.length === 0) return [];
+return Math.min(...arr);
+}
