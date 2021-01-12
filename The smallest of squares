@@ -1,0 +1,16 @@
+question
+There are four numbers - the areas of four squares. Find the side of the smallest square.
+Write a minSquareSide function that takes four numbers a, b, c, d (the area of four squares) 
+as arguments and returns the side of the least square.
+Example:
+minSquareSide (9, 4, 16, 81) should return 2 (minimum square area = 4, side = 2).
+
+solution:
+
+function minSquareSide(a, b, c, d){
+  let sa = Math.sqrt(a);
+  let sb = Math.sqrt(b);
+  let sc = Math.sqrt(c);
+  let sd = Math.sqrt(d);
+  return Math.min(sa,sb,sc,sd);
+}
