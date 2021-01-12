@@ -1,0 +1,12 @@
+question
+Find the lesser of the two given numbers.
+
+Write a min function that takes two numbers a, b as arguments and returns the smallest number.
+
+
+solution:
+
+function min(a, b){
+  return Math.min(a,b);
+  
+}
