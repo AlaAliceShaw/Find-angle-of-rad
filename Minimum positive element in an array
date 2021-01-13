@@ -1,0 +1,10 @@
+question
+Write a minPositive function that takes an array arr as an argument and returns the minimum positive element in the array.
+If arr contains no positive elements, return null.
+
+solution:
+
+function minPositive(arr){
+let pos = arr.filter(el => el > 0);
+  return  !pos.length ? null : Math.min(...pos)
+}
