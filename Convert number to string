@@ -1,0 +1,9 @@
+question
+Write a function named numToStr that takes the number num as an argument and returns a string containing that number.
+
+
+solution:
+
+function numToStr(num){
+  return num.toString();
+}
