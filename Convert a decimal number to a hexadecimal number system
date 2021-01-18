@@ -1,0 +1,9 @@
+question
+Write a function named numToHexadecimal that takes a positive integer decimal number num as an argument and returns 
+that hexadecimal number as a string.
+
+solution:
+
+function numToHexadecimal(num){
+  return num.toString(16);
+}
