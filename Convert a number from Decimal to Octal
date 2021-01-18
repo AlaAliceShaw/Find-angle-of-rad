@@ -1,0 +1,9 @@
+question
+Write a function named numToOctal that takes an integer positive decimal number num as an argument and returns that octal number.
+
+
+solution:
+
+function numToOctal(num){
+  return Number(num.toString(8));
+}
