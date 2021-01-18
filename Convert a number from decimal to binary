@@ -1,0 +1,8 @@
+question
+Write a function named numToBinary that takes a positive decimal integer num as an argument and returns that number in binary.
+
+solution:
+
+function numToBinary(num){
+  return Number(num.toString(2));
+}
