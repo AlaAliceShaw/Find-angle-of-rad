@@ -1,0 +1,18 @@
+question
+Write a function named convertNumber that takes a positive integer decimal number num as an argument and
+returns an array in decimal, binary, octal, and hexadecimal notation.
+Examples:
+convertNumber (5) should return [5, 101, 5, 5];
+convertNumber (9) should return [9, 1001, 11, 9];
+convertNumber (12) should return [12, 1100, 14, "c"];
+convertNumber (32) should return [32, 100000, 40, "20"]
+
+solution:
+
+function convertNumber(num){
+  let a = Number(num.toString());
+  let b = Number(num.toString(2));
+  let c = Number(num.toString(8));
+  let d = Number(num.toString(16));
+  return [a, b, c, d];
+}
